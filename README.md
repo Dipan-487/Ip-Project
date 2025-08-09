@@ -18,7 +18,7 @@ This is a command-line Python project designed for **Class 12th Computer Science
 - Store and manage customer information  
 - View service history for a particular vehicle  
 - Simple, easy-to-use text-based interface  
-- Data stored using CSV or database (depending on implementation)
+- Data stored SQL PRIMARY , CSV MAY BE THERE IF NECESSARY
 
 ---
 
@@ -26,8 +26,8 @@ This is a command-line Python project designed for **Class 12th Computer Science
 
 - **Language**: Python 3
 - **Interface**: Command Line Interface (CLI)
-- **Data Storage**: CSV / SQLite (based on your setup)
-- **Libraries**: `prettytable`, `datetime`, `os`, and more
+- **Data Storage**: CSV / SQL
+- **Libraries**: mysql-connector,pandas,stdiomsk,matplotlib,requests,os
 
 ---
 
@@ -38,3 +38,5 @@ This is a command-line Python project designed for **Class 12th Computer Science
 ```bash
 git clone https://github.com/your-username/vehicle-garage-management.git
 cd vehicle-garage-management
+pip install -r requirements.txt
+python3 main.py
